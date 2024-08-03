@@ -37,6 +37,16 @@ color = "#424851"
 description = "A PR that introduces a new feature"
 
 [[Label]]
+name = "kind/bug"
+color = "#F4BBBA"
+description = "A PR or issue that reports or fixes a bug"
+
+[[Label]]
+name = "kind/failing-test"
+color = "#F4BBBA"
+description = "A PR or issue that reports or fixes a failing test"
+
+[[Label]]
 name = "lifecycle/stale"
 color = "#AF9185"
 description = "A PR or issue that is old and has no activity"
