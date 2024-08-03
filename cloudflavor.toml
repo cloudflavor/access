@@ -1,2 +1,72 @@
 [admin]
 name = "PI-Victor"
+
+[[Label]]
+name = "approved"
+color = "#324C33"
+description = "A PR that has been approved"
+
+[[Label]]
+name = "dependencies"
+color = "#6DA6F6"
+description = "A PR that bumps dependencies"
+
+[[Label]]
+name = "area/tests"
+color = "#6DA6F6"
+description = "A PR that contains tests changes"
+
+[[Label]]
+name = "area/plugins"
+color = "#6DA6F6"
+description = "A PR that contains plugin changes"
+
+[[Label]]
+name = "kind/chore"
+color = "#424851"
+description = "A PR that handles misc changes"
+
+[[Label]]
+name = "kind/documentation"
+color = "#424851"
+description = "A PR that modifies or updates documentation"
+
+[[Label]]
+name = "kind/feature"
+color = "#424851"
+description = "A PR that introduces a new feature"
+
+[[Label]]
+name = "lifecycle/stale"
+color = "#AF9185"
+description = "A PR or issue that is old and has no activity"
+
+[[Label]]
+name = "lifecycle/rotten"
+color = "#424851"
+description = "A PR or issue that is old and already has the lifecycle/stale will be auto-closed"
+
+[[Label]]
+name = "needs-triage"
+color = "#424851"
+description = "A PR or issue that has not been triaged"
+
+[[Label]]
+name = "triage/accepted"
+color = "#324C33"
+description = "A PR or issue that has been triaged and can be worked on"
+
+[[Label]]
+name = "size/S"
+color = "#6EED47"
+description = "A PR that contains between less than 50 lines of code"
+
+[[Label]]
+name = "size/M"
+color = "#464230"
+description = "A PR that contains between less than 200 lines of code"
+
+[[Label]]
+name = "size/L"
+color = "#F4BBBA"
+description = "A PR that contains over 200 lines of code"
