@@ -17,7 +17,7 @@ color = "#A65F14"
 description = "A PR from an outside contributor that needs the ok-to-test label to run the CI pipeline"
 
 [[Labels]]
-name = "needs-ok-to-test"
+name = "ok-to-test"
 color = "#BBF9C0"
 description = "A PR that can be tested"
 
