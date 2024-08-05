@@ -7,6 +7,21 @@ color = "#324C33"
 description = "A PR that has been approved"
 
 [[Labels]]
+name = "do-not-merge"
+color = "#992B27"
+description = "A PR that should not be merged"
+
+[[Labels]]
+name = "needs-ok-to-test"
+color = "#A65F14"
+description = "A PR from an outside contributor that needs the ok-to-test label to run the CI pipeline"
+
+[[Labels]]
+name = "needs-ok-to-test"
+color = "#BBF9C0"
+description = "A PR that can be tested"
+
+[[Labels]]
 name = "dependencies"
 color = "#6DA6F6"
 description = "A PR that bumps dependencies"
@@ -18,6 +33,11 @@ description = "A PR that contains tests changes"
 
 [[Labels]]
 name = "area/plugins"
+color = "#6DA6F6"
+description = "A PR that contains plugin changes"
+
+[[Labels]]
+name = "area/infrastructure"
 color = "#6DA6F6"
 description = "A PR that contains plugin changes"
 
